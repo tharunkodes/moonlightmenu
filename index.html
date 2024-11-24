@@ -3,27 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Moon Light Menu</title>
+    <title>Image Display</title>
     <style>
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
+      body {
+        margin: 0; /* Remove default body margin */
+        background-color:black; /* Set background to transparent */
       }
-      iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
+      #image-container {
+        max-width: 600px; /* Set the max width for the images */
+        margin: auto; /* Center the container */
+      }
+      img {
+        width: 100%; /* Make images responsive */
+        display: block; /* Display images as block elements */
+        margin-bottom: 10px; /* Space between images */
       }
     </style>
   </head>
   <body>
-    <iframe
-      src="MOON LIGHT  menu.pdf"
-      allowfullscreen
-      sandbox="allow-same-origin allow-scripts"
-      type="application/pdf"
-    ></iframe>
+    <div id="image-container">
+      <img src="MOON LIGHT  menu_page-0001.jpg" alt="Image 1" />
+      <img src="MOON LIGHT  menu_page-0002.jpg" alt="Image 2" />
+      <img src="MOON LIGHT  menu_page-0003.jpg" alt="Image 3" />
+      <img src="MOON LIGHT  menu_page-0004.jpg" alt="Image 4" />
+      <img src="MOON LIGHT  menu_page-0005.jpg" alt="Image 5" />
+      <img src="MOON LIGHT  menu_page-0006.jpg" alt="Image 6" />
+      <img src="MOON LIGHT  menu_page-0007.jpg" alt="Image 7" />
+      <img src="MOON LIGHT  menu_page-0008.jpg" alt="Image 8" />
   </body>
 </html>
